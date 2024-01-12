@@ -36,3 +36,4 @@ src/main/resources/application.properties
 compose.yaml
 mvnw.cmd
 mvnw
+src/main/resources/db/migration/V1__create-table-dentista.sql
