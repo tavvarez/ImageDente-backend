@@ -15,12 +15,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import image.dente.api.dentista.DadosAtualizacaoDentista;
-import image.dente.api.dentista.DadosCadastroDentista;
-import image.dente.api.dentista.DadosDetalhamentoDentista;
-import image.dente.api.dentista.DadosListagemDentista;
-import image.dente.api.dentista.Dentista;
-import image.dente.api.dentista.DentistaRepository;
+import image.dente.api.domain.dentista.DadosAtualizacaoDentista;
+import image.dente.api.domain.dentista.DadosCadastroDentista;
+import image.dente.api.domain.dentista.DadosDetalhamentoDentista;
+import image.dente.api.domain.dentista.DadosListagemDentista;
+import image.dente.api.domain.dentista.Dentista;
+import image.dente.api.domain.dentista.DentistaRepository;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 
