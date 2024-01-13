@@ -1,4 +1,4 @@
-package image.dente.api.dentista;
+package image.dente.api.domain.dentista;
 
 public enum Especialidade {
     ORTODONTISTA,
