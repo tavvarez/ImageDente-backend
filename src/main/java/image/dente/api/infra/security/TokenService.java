@@ -22,7 +22,6 @@ public class TokenService {
             return JWT.create()
                     .withIssuer("API image-dente")
                     .withSubject(usuario.getLogin())
-                    // .withClaim("ID", usuario.getId())
                     .withExpiresAt(dataExpiracao())
                     .sign(algoritimo);
         } catch (JWTCreationException exception) {
