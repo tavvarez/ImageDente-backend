@@ -41,3 +41,7 @@ src/main/resources/db/migration/V2__alter-table-dentista-add-column-telefone.sql
 src/main/resources/db/migration/V3__alter-table-dentista-add-column-ativo.sql
 src/main/resources/db/migration/V4__alter-table-dentista-alter-column-ativo-boolean.sql
 src/main/resources/db/migration/V5__create-table-usuarios.sql
+src/main/resources/db/migration/V6__create-table-pacientes.sql
+src/main/resources/db/migration/V7__alter-table-pacientes-remove-constraint-genero.sql
+src/main/resources/db/migration/V8__alter-table-pacientes-rename-paciente.sql
+src/main/resources/db/migration/V9__alter-table-paciente-alter-column-ativo-boolean.sql
